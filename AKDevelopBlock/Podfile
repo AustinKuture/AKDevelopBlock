@@ -1,0 +1,15 @@
+platform:ios,'8.0'
+
+xcodeproj 'AKDevelopBlock.xcodeporj'
+
+target 'AKDevelopBlock' do
+
+
+
+end
+
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'SDCycleScrollView'
