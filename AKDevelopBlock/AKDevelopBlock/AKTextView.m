@@ -32,7 +32,7 @@
         self.frame = CGRectMake(0, 0, SCREEN_WIDTH, 300);
         [self mutableArrayInitting];
         [self obtainDataFromNetWork];
-        self.separatorStyle = UITableViewCellSeparatorStyleNone;
+//        self.separatorStyle = UITableViewCellSeparatorStyleNone;
         self.bounces = NO;
         self.delegate = self;
         self.dataSource = self;

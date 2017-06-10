@@ -15,17 +15,18 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self){
         
-        self.backgroundColor = GROUNDSAME(248, 1);
+//        self.backgroundColor = GROUNDSAME(248, 1);
+        self.backgroundColor = COLORS_WHITE;
         
         UIView *backView = [[UIView alloc]init];
         backView.backgroundColor = COLORS_WHITE;
         [self addSubview:backView];
         [backView mas_makeConstraints:^(MASConstraintMaker *make) {
             
-            make.left.equalTo(self.mas_left).offset(15);
-            make.top.equalTo(self.mas_top).offset(5);
-            make.right.equalTo(self.mas_right).offset(-15);
-            make.bottom.equalTo(self.mas_bottom).offset(-5);
+            make.left.equalTo(self.mas_left).offset(10);
+            make.top.equalTo(self.mas_top);
+            make.right.equalTo(self.mas_right).offset(-10);
+            make.bottom.equalTo(self.mas_bottom);
         }];
         
         self.picView = [[UIImageView alloc]init];
