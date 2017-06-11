@@ -14,12 +14,29 @@
 //根据所需大小对图像像素的拉伸
 + (instancetype)resizeWithImageName:(NSString *)imgName{
     
+//    UIImage *reImg = [UIImage imageNamed:imgName];
+//    
+//    // 设置端盖的值
+//    CGFloat top = reImg.size.height * 0.5;
+//    CGFloat left = reImg.size.width * 0.5;
+//    CGFloat bottom = reImg.size.height * 0.5;
+//    CGFloat right = reImg.size.width * 0.5;
+//    
+//    // 设置端盖的值
+//    UIEdgeInsets edgeInsets = UIEdgeInsetsMake(top, left, bottom, right);
+//    // 设置拉伸的模式
+//    UIImageResizingMode mode = UIImageResizingModeStretch;
+//    
+//    // 拉伸图片
+//    UIImage *rsizeImg = [reImg resizableImageWithCapInsets:edgeInsets resizingMode:mode];
+
+//    
     UIImage *reImg = [UIImage imageNamed:imgName];
     CGFloat h = reImg.size.height * 0.5;
     CGFloat w = reImg.size.width * 0.5;
     
     UIImage *rsizeImg = [reImg resizableImageWithCapInsets:UIEdgeInsetsMake(h, w, h, w) resizingMode:UIImageResizingModeStretch];
-    
+//
     return rsizeImg;
 }
 

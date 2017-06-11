@@ -29,6 +29,13 @@
 		D74DD1921EDECE6B000A65F9 /* AKLoginViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DD1911EDECE6B000A65F9 /* AKLoginViewTwo.m */; };
 		D74DD1951EDED0D5000A65F9 /* AKLoginTableViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DD1941EDED0D5000A65F9 /* AKLoginTableViewTwo.m */; };
 		D74DD1991EDED987000A65F9 /* AKSDCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DD1981EDED987000A65F9 /* AKSDCycleViewController.m */; };
+		D754C3D61EECDA2A008CA1F8 /* AKColorsImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D754C3D51EECDA2A008CA1F8 /* AKColorsImageView.m */; };
+		D754C3DA1EECE583008CA1F8 /* AKColorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = D754C3D91EECE583008CA1F8 /* AKColorFade.m */; };
+		D754C3DE1EECE928008CA1F8 /* AKWeiblogToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D754C3DD1EECE928008CA1F8 /* AKWeiblogToolBar.m */; };
+		D754C3E21EECEC56008CA1F8 /* AKOthers.m in Sources */ = {isa = PBXBuildFile; fileRef = D754C3E11EECEC56008CA1F8 /* AKOthers.m */; };
+		D754C3E61EED1357008CA1F8 /* AKCacheClean.m in Sources */ = {isa = PBXBuildFile; fileRef = D754C3E51EED1357008CA1F8 /* AKCacheClean.m */; };
+		D754C3EA1EED17C7008CA1F8 /* AKPlusBtnController.m in Sources */ = {isa = PBXBuildFile; fileRef = D754C3E91EED17C7008CA1F8 /* AKPlusBtnController.m */; };
+		D754C3ED1EED182F008CA1F8 /* AKWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = D754C3EC1EED182F008CA1F8 /* AKWeatherView.m */; };
 		D78E10FF1EC6D4AE008AE673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E10FE1EC6D4AE008AE673 /* main.m */; };
 		D78E11021EC6D4AE008AE673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E11011EC6D4AE008AE673 /* AppDelegate.m */; };
 		D78E11081EC6D4AE008AE673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78E11061EC6D4AE008AE673 /* Main.storyboard */; };
@@ -86,6 +93,20 @@
 		D74DD1941EDED0D5000A65F9 /* AKLoginTableViewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKLoginTableViewTwo.m; sourceTree = "<group>"; };
 		D74DD1971EDED987000A65F9 /* AKSDCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSDCycleViewController.h; sourceTree = "<group>"; };
 		D74DD1981EDED987000A65F9 /* AKSDCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSDCycleViewController.m; sourceTree = "<group>"; };
+		D754C3D41EECDA2A008CA1F8 /* AKColorsImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKColorsImageView.h; sourceTree = "<group>"; };
+		D754C3D51EECDA2A008CA1F8 /* AKColorsImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKColorsImageView.m; sourceTree = "<group>"; };
+		D754C3D81EECE583008CA1F8 /* AKColorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKColorFade.h; sourceTree = "<group>"; };
+		D754C3D91EECE583008CA1F8 /* AKColorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKColorFade.m; sourceTree = "<group>"; };
+		D754C3DC1EECE928008CA1F8 /* AKWeiblogToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKWeiblogToolBar.h; sourceTree = "<group>"; };
+		D754C3DD1EECE928008CA1F8 /* AKWeiblogToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKWeiblogToolBar.m; sourceTree = "<group>"; };
+		D754C3E01EECEC56008CA1F8 /* AKOthers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKOthers.h; sourceTree = "<group>"; };
+		D754C3E11EECEC56008CA1F8 /* AKOthers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKOthers.m; sourceTree = "<group>"; };
+		D754C3E41EED1357008CA1F8 /* AKCacheClean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCacheClean.h; sourceTree = "<group>"; };
+		D754C3E51EED1357008CA1F8 /* AKCacheClean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCacheClean.m; sourceTree = "<group>"; };
+		D754C3E81EED17C7008CA1F8 /* AKPlusBtnController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPlusBtnController.h; sourceTree = "<group>"; };
+		D754C3E91EED17C7008CA1F8 /* AKPlusBtnController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPlusBtnController.m; sourceTree = "<group>"; };
+		D754C3EB1EED182F008CA1F8 /* AKWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKWeatherView.h; sourceTree = "<group>"; };
+		D754C3EC1EED182F008CA1F8 /* AKWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKWeatherView.m; sourceTree = "<group>"; };
 		D78E10FA1EC6D4AE008AE673 /* AKDevelopBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKDevelopBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78E10FE1EC6D4AE008AE673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D78E11001EC6D4AE008AE673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -151,6 +172,8 @@
 		D727E1B81EEC3EEE00C74AB7 /* 图像类视图 */ = {
 			isa = PBXGroup;
 			children = (
+				D727E1C31EEC50EB00C74AB7 /* 图像拉伸 */,
+				D727E1CB1EEC5A9400C74AB7 /* 图像蒙版 */,
 			);
 			name = "图像类视图";
 			sourceTree = "<group>";
@@ -222,17 +245,20 @@
 			name = TextVeiw;
 			sourceTree = "<group>";
 		};
-		D74DD15B1EDEB079000A65F9 /* 视图与类型 */ = {
+		D74DD15B1EDEB079000A65F9 /* 模块类型 */ = {
 			isa = PBXGroup;
 			children = (
 				D727E1B71EEC3ED500C74AB7 /* 图文类视图 */,
 				D727E1B81EEC3EEE00C74AB7 /* 图像类视图 */,
 				D727E1B91EEC3F1600C74AB7 /* 登陆类视图 */,
 				D727E1C21EEC50DC00C74AB7 /* 轮播 */,
-				D727E1C31EEC50EB00C74AB7 /* 图像拉伸 */,
-				D727E1CB1EEC5A9400C74AB7 /* 图像蒙版 */,
+				D754C3D31EECD9EF008CA1F8 /* 色彩图片 */,
+				D754C3D71EECE557008CA1F8 /* 色彩渐变 */,
+				D754C3DB1EECE8FE008CA1F8 /* 微博功能按钮 */,
+				D754C3E31EED12F7008CA1F8 /* 缓存扫描及清理 */,
+				D754C3E71EED17B2008CA1F8 /* 快捷视图窗口 */,
 			);
-			name = "视图与类型";
+			name = "模块类型";
 			sourceTree = "<group>";
 		};
 		D74DD1651EDEB9AF000A65F9 /* PicInsertText */ = {
@@ -272,6 +298,62 @@
 			children = (
 			);
 			name = "轮播视图";
+			sourceTree = "<group>";
+		};
+		D754C3D31EECD9EF008CA1F8 /* 色彩图片 */ = {
+			isa = PBXGroup;
+			children = (
+				D754C3D41EECDA2A008CA1F8 /* AKColorsImageView.h */,
+				D754C3D51EECDA2A008CA1F8 /* AKColorsImageView.m */,
+			);
+			name = "色彩图片";
+			sourceTree = "<group>";
+		};
+		D754C3D71EECE557008CA1F8 /* 色彩渐变 */ = {
+			isa = PBXGroup;
+			children = (
+				D754C3D81EECE583008CA1F8 /* AKColorFade.h */,
+				D754C3D91EECE583008CA1F8 /* AKColorFade.m */,
+			);
+			name = "色彩渐变";
+			sourceTree = "<group>";
+		};
+		D754C3DB1EECE8FE008CA1F8 /* 微博功能按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				D754C3DC1EECE928008CA1F8 /* AKWeiblogToolBar.h */,
+				D754C3DD1EECE928008CA1F8 /* AKWeiblogToolBar.m */,
+			);
+			name = "微博功能按钮";
+			sourceTree = "<group>";
+		};
+		D754C3DF1EECEC30008CA1F8 /* 视图跳动 */ = {
+			isa = PBXGroup;
+			children = (
+				D754C3E01EECEC56008CA1F8 /* AKOthers.h */,
+				D754C3E11EECEC56008CA1F8 /* AKOthers.m */,
+			);
+			name = "视图跳动";
+			sourceTree = "<group>";
+		};
+		D754C3E31EED12F7008CA1F8 /* 缓存扫描及清理 */ = {
+			isa = PBXGroup;
+			children = (
+				D754C3E41EED1357008CA1F8 /* AKCacheClean.h */,
+				D754C3E51EED1357008CA1F8 /* AKCacheClean.m */,
+			);
+			name = "缓存扫描及清理";
+			sourceTree = "<group>";
+		};
+		D754C3E71EED17B2008CA1F8 /* 快捷视图窗口 */ = {
+			isa = PBXGroup;
+			children = (
+				D754C3E81EED17C7008CA1F8 /* AKPlusBtnController.h */,
+				D754C3E91EED17C7008CA1F8 /* AKPlusBtnController.m */,
+				D754C3EB1EED182F008CA1F8 /* AKWeatherView.h */,
+				D754C3EC1EED182F008CA1F8 /* AKWeatherView.m */,
+			);
+			name = "快捷视图窗口";
 			sourceTree = "<group>";
 		};
 		D78E10F11EC6D4AE008AE673 = {
@@ -317,6 +399,7 @@
 		D78E11171EC6D5B7008AE673 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				D754C3DF1EECEC30008CA1F8 /* 视图跳动 */,
 				D78E112B1EC6D694008AE673 /* PackClass */,
 				D78E11181EC6D5BF008AE673 /* View+Text */,
 				D74DD1511EDE9E19000A65F9 /* TextVeiw */,
@@ -360,7 +443,7 @@
 			isa = PBXGroup;
 			children = (
 				D78E11341EC6D9EE008AE673 /* MainController */,
-				D74DD15B1EDEB079000A65F9 /* 视图与类型 */,
+				D74DD15B1EDEB079000A65F9 /* 模块类型 */,
 				D78E11351EC6DA21008AE673 /* Others */,
 				D78E11361EC6DEB6008AE673 /* WebView */,
 			);
@@ -534,19 +617,26 @@
 				D74DD1991EDED987000A65F9 /* AKSDCycleViewController.m in Sources */,
 				D78E11391EC6DEF6008AE673 /* AKPublickWebView.m in Sources */,
 				D727E1CE1EEC5ABF00C74AB7 /* AKPicBlurViewController.m in Sources */,
+				D754C3E61EED1357008CA1F8 /* AKCacheClean.m in Sources */,
+				D754C3D61EECDA2A008CA1F8 /* AKColorsImageView.m in Sources */,
 				D78E112E1EC6D752008AE673 /* AKDateTrans.m in Sources */,
 				D74DD18C1EDECBAA000A65F9 /* AKLoginView.m in Sources */,
 				D74DD1611EDEB0E2000A65F9 /* AKKonwTextViewController.m in Sources */,
 				D78E11321EC6D98D008AE673 /* AKNetPackegeAFN.m in Sources */,
 				D727E1BD1EEC41C300C74AB7 /* UIViewController+alvertVC.m in Sources */,
+				D754C3E21EECEC56008CA1F8 /* AKOthers.m in Sources */,
 				D74DD1921EDECE6B000A65F9 /* AKLoginViewTwo.m in Sources */,
 				D78E11291EC6D65E008AE673 /* AKNewHotModel.m in Sources */,
 				D74DD15A1EDEACE6000A65F9 /* ViewController.m in Sources */,
 				D74DD16B1EDEB9DF000A65F9 /* AKScoreOrderModel.m in Sources */,
 				D74DD1571EDEA09A000A65F9 /* AKTextView.m in Sources */,
+				D754C3EA1EED17C7008CA1F8 /* AKPlusBtnController.m in Sources */,
+				D754C3DA1EECE583008CA1F8 /* AKColorFade.m in Sources */,
 				D74DD18F1EDECBD3000A65F9 /* AKLoginTableView.m in Sources */,
 				D78E11021EC6D4AE008AE673 /* AppDelegate.m in Sources */,
 				D727E1C01EEC42CA00C74AB7 /* UIImage+AKImgEx.m in Sources */,
+				D754C3DE1EECE928008CA1F8 /* AKWeiblogToolBar.m in Sources */,
+				D754C3ED1EED182F008CA1F8 /* AKWeatherView.m in Sources */,
 				D78E11281EC6D65E008AE673 /* AKNewHotCell.m in Sources */,
 				D74DD15E1EDEB0C8000A65F9 /* AKViewAndTextViewController.m in Sources */,
 				D74DD1751EDEBCF7000A65F9 /* NSObject+AKGesture.m in Sources */,
