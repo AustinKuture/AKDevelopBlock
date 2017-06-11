@@ -31,8 +31,8 @@
 #pragma mark ***数据初始化***
 - (void)parmatersInitSetting{
     
-    _typeArray = @[@"知识类图文视图",@"知识类文本视图",@"图像嵌入文本类视图",@"图像浏览与动画加载类视图",@"登陆类视图样式一",@"登陆类视图样式二",@"无限轮播类视图",@"控制器内内弹窗",@"图像比例拉伸",@"图像蒙版",@"生成指定颜色图片",@"色彩渐变",@"微博功能按钮",@"缓存扫描及清理",@"快捷视图窗口"];
-    _classTypeArray = @[@"AKViewAndTextViewController",@"AKKonwTextViewController",@"AKPhotoAndTextViewController",@"AKPhotoAndAnimationController",@"AKLoginTableView",@"AKLoginTableViewTwo",@"AKSDCycleViewController",@"",@"AKImgResizeOne",@"AKPicBlurViewController",@"AKColorsImageView",@"AKColorFade",@"AKWeiblogToolBar",@"AKCacheClean",@"AKPlusBtnController"];
+    _typeArray = @[@"知识类图文视图",@"知识类文本视图",@"图像嵌入文本类视图",@"图像浏览与动画加载类视图",@"登陆类视图样式一",@"登陆类视图样式二",@"无限轮播类视图",@"控制器内内弹窗",@"图像比例拉伸",@"图像蒙版",@"生成指定颜色图片",@"色彩渐变",@"微博功能按钮",@"缓存扫描及清理",@"快捷视图窗口",@"缩放旋转及拖动手势",@"3D标签"];
+    _classTypeArray = @[@"AKViewAndTextViewController",@"AKKonwTextViewController",@"AKPhotoAndTextViewController",@"AKPhotoAndAnimationController",@"AKLoginTableView",@"AKLoginTableViewTwo",@"AKSDCycleViewController",@"",@"AKImgResizeOne",@"AKPicBlurViewController",@"AKColorsImageView",@"AKColorFade",@"AKWeiblogToolBar",@"AKCacheClean",@"AKPlusBtnController",@"AKGestureSeris",@"AK3DLabelView"];
 }
 
 #pragma mark ***类型与模块**

@@ -25,16 +25,16 @@ CGRect largeFrame;  //确定图片放大最大的程度
     largeFrame = CGRectMake(0 - view.bounds.size.width, 0 - view.bounds.size.height, 3 * oldFrame.size.width, 3 * oldFrame.size.height);
     
     //    // 旋转手势
-//    UIRotationGestureRecognizer *rotationGestureRecognizer = [[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(rotateView:)];
-//    [view addGestureRecognizer:rotationGestureRecognizer];
+    UIRotationGestureRecognizer *rotationGestureRecognizer = [[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(rotateView:)];
+    [view addGestureRecognizer:rotationGestureRecognizer];
     
     // 缩放手势
     UIPinchGestureRecognizer *pinchGestureRecognizer = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinchView:)];
     [view addGestureRecognizer:pinchGestureRecognizer];
     
     // 移动手势
-//        UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panView:)];
-//        [view addGestureRecognizer:panGestureRecognizer];
+        UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panView:)];
+        [view addGestureRecognizer:panGestureRecognizer];
 }
 
 // 处理旋转手势
