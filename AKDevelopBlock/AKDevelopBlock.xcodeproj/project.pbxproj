@@ -12,6 +12,9 @@
 		D727E1C01EEC42CA00C74AB7 /* UIImage+AKImgEx.m in Sources */ = {isa = PBXBuildFile; fileRef = D727E1BF1EEC42CA00C74AB7 /* UIImage+AKImgEx.m */; };
 		D727E1C91EEC514E00C74AB7 /* AKImgResizeOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D727E1C81EEC514E00C74AB7 /* AKImgResizeOne.m */; };
 		D727E1CE1EEC5ABF00C74AB7 /* AKPicBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D727E1CD1EEC5ABF00C74AB7 /* AKPicBlurViewController.m */; };
+		D73FDC381EF60BFB00939DB4 /* AKSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC371EF60BFB00939DB4 /* AKSearchResultController.m */; };
+		D73FDC3C1EF618CC00939DB4 /* YRImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC3B1EF618CC00939DB4 /* YRImagePicker.m */; };
+		D73FDC401EF618F300939DB4 /* AKPickImgController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC3F1EF618F300939DB4 /* AKPickImgController.m */; };
 		D74DD1541EDEA05B000A65F9 /* AKGuessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DD1531EDEA05B000A65F9 /* AKGuessCell.m */; };
 		D74DD1571EDEA09A000A65F9 /* AKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DD1561EDEA09A000A65F9 /* AKTextView.m */; };
 		D74DD15A1EDEACE6000A65F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DD1591EDEACE6000A65F9 /* ViewController.m */; };
@@ -63,6 +66,12 @@
 		D727E1C81EEC514E00C74AB7 /* AKImgResizeOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKImgResizeOne.m; sourceTree = "<group>"; };
 		D727E1CC1EEC5ABF00C74AB7 /* AKPicBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPicBlurViewController.h; sourceTree = "<group>"; };
 		D727E1CD1EEC5ABF00C74AB7 /* AKPicBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPicBlurViewController.m; sourceTree = "<group>"; };
+		D73FDC361EF60BFB00939DB4 /* AKSearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSearchResultController.h; sourceTree = "<group>"; };
+		D73FDC371EF60BFB00939DB4 /* AKSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSearchResultController.m; sourceTree = "<group>"; };
+		D73FDC3A1EF618CC00939DB4 /* YRImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRImagePicker.h; sourceTree = "<group>"; };
+		D73FDC3B1EF618CC00939DB4 /* YRImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRImagePicker.m; sourceTree = "<group>"; };
+		D73FDC3E1EF618F300939DB4 /* AKPickImgController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPickImgController.h; sourceTree = "<group>"; };
+		D73FDC3F1EF618F300939DB4 /* AKPickImgController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPickImgController.m; sourceTree = "<group>"; };
 		D74DD1521EDEA05B000A65F9 /* AKGuessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGuessCell.h; sourceTree = "<group>"; };
 		D74DD1531EDEA05B000A65F9 /* AKGuessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGuessCell.m; sourceTree = "<group>"; };
 		D74DD1551EDEA09A000A65F9 /* AKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTextView.h; sourceTree = "<group>"; };
@@ -245,6 +254,33 @@
 			name = "图像蒙版";
 			sourceTree = "<group>";
 		};
+		D73FDC321EF6098C00939DB4 /* 搜索视图 */ = {
+			isa = PBXGroup;
+			children = (
+				D73FDC361EF60BFB00939DB4 /* AKSearchResultController.h */,
+				D73FDC371EF60BFB00939DB4 /* AKSearchResultController.m */,
+			);
+			name = "搜索视图";
+			sourceTree = "<group>";
+		};
+		D73FDC391EF618BE00939DB4 /* 图片选择 */ = {
+			isa = PBXGroup;
+			children = (
+				D73FDC3A1EF618CC00939DB4 /* YRImagePicker.h */,
+				D73FDC3B1EF618CC00939DB4 /* YRImagePicker.m */,
+			);
+			name = "图片选择";
+			sourceTree = "<group>";
+		};
+		D73FDC3D1EF618D200939DB4 /* 图片选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				D73FDC3E1EF618F300939DB4 /* AKPickImgController.h */,
+				D73FDC3F1EF618F300939DB4 /* AKPickImgController.m */,
+			);
+			name = "图片选择器";
+			sourceTree = "<group>";
+		};
 		D74DD1511EDE9E19000A65F9 /* TextVeiw */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +306,8 @@
 				D754C3E71EED17B2008CA1F8 /* 快捷视图窗口 */,
 				D754C3F81EED3159008CA1F8 /* 常用手势 */,
 				D754C3F41EED2956008CA1F8 /* 3D标签 */,
+				D73FDC321EF6098C00939DB4 /* 搜索视图 */,
+				D73FDC3D1EF618D200939DB4 /* 图片选择器 */,
 			);
 			name = "模块类型";
 			sourceTree = "<group>";
@@ -441,6 +479,7 @@
 		D78E11171EC6D5B7008AE673 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				D73FDC391EF618BE00939DB4 /* 图片选择 */,
 				D754C3DF1EECEC30008CA1F8 /* 视图跳动 */,
 				D78E112B1EC6D694008AE673 /* PackClass */,
 				D78E11181EC6D5BF008AE673 /* View+Text */,
@@ -662,7 +701,9 @@
 				D727E1CE1EEC5ABF00C74AB7 /* AKPicBlurViewController.m in Sources */,
 				D754C3FB1EED3193008CA1F8 /* AKGestureSeris.m in Sources */,
 				D754C3E61EED1357008CA1F8 /* AKCacheClean.m in Sources */,
+				D73FDC381EF60BFB00939DB4 /* AKSearchResultController.m in Sources */,
 				D754C3D61EECDA2A008CA1F8 /* AKColorsImageView.m in Sources */,
+				D73FDC3C1EF618CC00939DB4 /* YRImagePicker.m in Sources */,
 				D754C3F71EED2981008CA1F8 /* AK3DLabelView.m in Sources */,
 				D78E112E1EC6D752008AE673 /* AKDateTrans.m in Sources */,
 				D74DD18C1EDECBAA000A65F9 /* AKLoginView.m in Sources */,
@@ -688,6 +729,7 @@
 				D74DD1751EDEBCF7000A65F9 /* NSObject+AKGesture.m in Sources */,
 				D74DD1681EDEB9CC000A65F9 /* AKScoreOrderView.m in Sources */,
 				D78E112A1EC6D65E008AE673 /* AKNewHotView.m in Sources */,
+				D73FDC401EF618F300939DB4 /* AKPickImgController.m in Sources */,
 				D74DD16F1EDEBC4A000A65F9 /* AKanimationView.m in Sources */,
 				D727E1C91EEC514E00C74AB7 /* AKImgResizeOne.m in Sources */,
 				D74DD1721EDEBC7D000A65F9 /* AKPhotoAndAnimationController.m in Sources */,

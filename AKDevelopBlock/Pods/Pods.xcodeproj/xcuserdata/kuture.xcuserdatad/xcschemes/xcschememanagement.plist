@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PYSearch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-AKDevelopBlock.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,12 +47,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7C8C825A3417B993AED382856A243EA8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8D57A15521877F0B8B2CE710011B2C02</key>
+		<key>540DE5BEE303FE42A74DF9BA6189DB81</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>933600036D7B0979176754543A519A41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9EAB3E42EF957541E6C3C76D35FD008E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A1ED5FF73BF0A928FE8D4029EB6D3AC4</key>
+		<key>CCBBFA3B6C6575D316B20902A344D32A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC9666F29FDB8214B52BCB2219647342</key>
 		<dict>
 			<key>primary</key>
 			<true/>
