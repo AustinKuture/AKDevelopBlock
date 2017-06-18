@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CBPic2ker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,37 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
+		<key>188A4BEBD335B9F94B59DE6A88488FF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>540DE5BEE303FE42A74DF9BA6189DB81</key>
+		<key>1D113F3FCE19AC57FC71D4E6C2E2C903</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>928353533005A4198EBDA5B700D37B64</key>
+		<key>656DBEA412C25ED7B180A8F312622820</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>933600036D7B0979176754543A519A41</key>
+		<key>965272FA02010FA40D9D30687C15B4C9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9EAB3E42EF957541E6C3C76D35FD008E</key>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CCBBFA3B6C6575D316B20902A344D32A</key>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FC9666F29FDB8214B52BCB2219647342</key>
+		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA226856B467A693597C7FC67F4A73BB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

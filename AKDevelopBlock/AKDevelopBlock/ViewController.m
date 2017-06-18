@@ -10,8 +10,9 @@
 #import "UIViewController+alvertVC.h"
 #import "AKSearchResultController.h"
 #import "PYSearch.h"
+#import "CBPic2ker.h"
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource,PYSearchViewControllerDelegate>
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource,PYSearchViewControllerDelegate,CBPickerControllerDelegate>
 
 @property (nonatomic,strong) UITableView *typeTableView;
 
@@ -35,8 +36,8 @@
 #pragma mark ***数据初始化***
 - (void)parmatersInitSetting{
     
-    _typeArray = @[@"知识类图文视图",@"知识类文本视图",@"图像嵌入文本类视图",@"图像浏览与动画加载类视图",@"登陆类视图样式一",@"登陆类视图样式二",@"无限轮播类视图",@"控制器内内弹窗",@"图像比例拉伸",@"图像蒙版",@"生成指定颜色图片",@"色彩渐变",@"微博功能按钮",@"缓存扫描及清理",@"快捷视图窗口",@"缩放旋转及拖动手势",@"3D标签",@"图片选择器",@"搜索控制器"];
-    _classTypeArray = @[@"AKViewAndTextViewController",@"AKKonwTextViewController",@"AKPhotoAndTextViewController",@"AKPhotoAndAnimationController",@"AKLoginTableView",@"AKLoginTableViewTwo",@"AKSDCycleViewController",@"",@"AKImgResizeOne",@"AKPicBlurViewController",@"AKColorsImageView",@"AKColorFade",@"AKWeiblogToolBar",@"AKCacheClean",@"AKPlusBtnController",@"AKGestureSeris",@"AK3DLabelView",@"AKPickImgController",@"AKSearchTableController"];
+    _typeArray = @[@"知识类图文视图",@"知识类文本视图",@"图像嵌入文本类视图",@"图像浏览与动画加载类视图",@"登陆类视图样式一",@"登陆类视图样式二",@"无限轮播类视图",@"控制器内内弹窗",@"图像比例拉伸",@"图像蒙版",@"生成指定颜色图片",@"色彩渐变",@"微博功能按钮",@"缓存扫描及清理",@"快捷视图窗口",@"缩放旋转及拖动手势",@"3D标签",@"图片选择器一",@"图片选择器二",@"搜索控制器",@"扇形百分比视图"];
+    _classTypeArray = @[@"AKViewAndTextViewController",@"AKKonwTextViewController",@"AKPhotoAndTextViewController",@"AKPhotoAndAnimationController",@"AKLoginTableView",@"AKLoginTableViewTwo",@"AKSDCycleViewController",@"",@"AKImgResizeOne",@"AKPicBlurViewController",@"AKColorsImageView",@"AKColorFade",@"AKWeiblogToolBar",@"AKCacheClean",@"AKPlusBtnController",@"AKGestureSeris",@"AK3DLabelView",@"AKPickImgController",@"",@"AKSearchTableController",@"AKPercentAnimationController"];
 }
 
 #pragma mark ***类型与模块**
@@ -68,7 +69,7 @@
     }
     
     cell.textLabel.text = _typeArray[indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"block_%ld",indexPath.row]];
+    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"block_%ld",(long)indexPath.row]];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
@@ -95,9 +96,19 @@
         tabVC.title = _typeArray[indexPath.row];
         [self presentViewController:tabVC animated:YES completion:nil];
         
+    //图片选择控制器二
     }else if (indexPath.row == 18){
         
-        [self searchBugClickBtn];
+        CBPhotoSelecterController *controller = [[CBPhotoSelecterController alloc] initWithDelegate:self];
+        controller.columnNumber = 4;
+        controller.maxSlectedImagesCount = 5;
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
+        [self presentViewController:nav animated:YES completion:nil];
+        
+    //搜索控制器
+    }else if (indexPath.row == 19){
+        
+         [self searchBugClickBtn];
     }else{
         
         UITableViewController *tabVC = [[NSClassFromString(_classTypeArray[indexPath.row]) alloc]init];
@@ -127,6 +138,7 @@
         AKSearchResultController *searchVC = [AKSearchResultController new];
         searchVC.title = @"搜索结果";
         searchVC.searchWords = searchText;
+        searchVC.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         [_nav pushViewController:searchVC animated:YES];
     }];
     
@@ -165,8 +177,16 @@
     [_nav pushViewController:searchVC animated:YES];
 }
 
+#pragma makr ***图片选择控制器二代理***
+- (void)photoSelecterController:(CBPhotoSelecterController *)pickerController sourceAsset:(NSArray *)sourceAsset{
+    
+    MyLog(@"==========PickSelectedTwo:%@",[sourceAsset firstObject]);
+}
 
-
+- (void)photoSelecterDidCancelWithController:(CBPhotoSelecterController *)pickerController{
+    
+    MyLog(@"==========PhotoController:%@",pickerController);
+}
 
 
 

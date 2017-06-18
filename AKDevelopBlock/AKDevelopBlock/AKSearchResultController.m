@@ -42,7 +42,7 @@
 //    有道搜索：http://www.youdao.com/search?q=
 //    天眼查 :http://www.tianyancha.com/search?key=
     
-    NSString *url = [NSString stringWithFormat:@"http://www.baidu.com/s?wd=%@",[_searchWords stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
+    NSString *url = [NSString stringWithFormat:@"http://cn.bing.com/search?q=%@",[_searchWords stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
     UIWebView *webV = [[UIWebView alloc]initWithFrame:self.view.bounds];
     webV.delegate = self;
     [webV loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
