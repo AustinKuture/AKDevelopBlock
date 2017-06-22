@@ -48,12 +48,10 @@
             
             [titleArrayM addObject:model.doctitle];
             [sdImgUrlArray addObject:[NSString stringWithFormat:@"%@%@",API_MAIN,model.docpuburl]];
-//            [_sdCycleUrlArray addObject:[NSString stringWithFormat:@"%@token=%@&docid=%@",API_DETAIL,USERTOKEN,model.docid]];
         }
         
         cycleView.titlesGroup = titleArrayM;
         cycleView.imageURLStringsGroup = sdImgUrlArray;
-//        [self mainKingInitSetting];
         
     } Fail:^(NSError *error) {
         

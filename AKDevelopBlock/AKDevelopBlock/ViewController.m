@@ -118,9 +118,6 @@
         
         [self.navigationController pushViewController:tabVC animated:YES];
     }
-    
-    
-    
 }
 
 #pragma mark ***Bug搜索***
