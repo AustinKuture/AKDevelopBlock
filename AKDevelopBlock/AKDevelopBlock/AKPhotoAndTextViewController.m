@@ -19,6 +19,7 @@
     
     [super viewDidLoad];
     
+    //图像嵌入文本类
     AKScoreOrderView *viewText = [AKScoreOrderView new];
     [self.view addSubview:viewText];
     [viewText mas_makeConstraints:^(MASConstraintMaker *make) {

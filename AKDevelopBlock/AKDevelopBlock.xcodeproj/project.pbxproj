@@ -12,6 +12,15 @@
 		D727E1C01EEC42CA00C74AB7 /* UIImage+AKImgEx.m in Sources */ = {isa = PBXBuildFile; fileRef = D727E1BF1EEC42CA00C74AB7 /* UIImage+AKImgEx.m */; };
 		D727E1C91EEC514E00C74AB7 /* AKImgResizeOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D727E1C81EEC514E00C74AB7 /* AKImgResizeOne.m */; };
 		D727E1CE1EEC5ABF00C74AB7 /* AKPicBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D727E1CD1EEC5ABF00C74AB7 /* AKPicBlurViewController.m */; };
+		D73FDC381EF60BFB00939DB4 /* AKSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC371EF60BFB00939DB4 /* AKSearchResultController.m */; };
+		D73FDC3C1EF618CC00939DB4 /* YRImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC3B1EF618CC00939DB4 /* YRImagePicker.m */; };
+		D73FDC401EF618F300939DB4 /* AKPickImgController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC3F1EF618F300939DB4 /* AKPickImgController.m */; };
+		D73FDC561EF6558E00939DB4 /* PieChart.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73FDC4D1EF6558E00939DB4 /* PieChart.xcassets */; };
+		D73FDC571EF6558E00939DB4 /* XYCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC4F1EF6558E00939DB4 /* XYCommon.m */; };
+		D73FDC581EF6558E00939DB4 /* XYPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC511EF6558E00939DB4 /* XYPieChartView.m */; };
+		D73FDC591EF6558E00939DB4 /* XYRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC531EF6558E00939DB4 /* XYRenderView.m */; };
+		D73FDC5A1EF6558E00939DB4 /* XYRotatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC551EF6558E00939DB4 /* XYRotatedView.m */; };
+		D73FDC5F1EF655E100939DB4 /* AKPercentAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FDC5E1EF655E100939DB4 /* AKPercentAnimationController.m */; };
 		D74DD1541EDEA05B000A65F9 /* AKGuessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DD1531EDEA05B000A65F9 /* AKGuessCell.m */; };
 		D74DD1571EDEA09A000A65F9 /* AKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DD1561EDEA09A000A65F9 /* AKTextView.m */; };
 		D74DD15A1EDEACE6000A65F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DD1591EDEACE6000A65F9 /* ViewController.m */; };
@@ -63,6 +72,23 @@
 		D727E1C81EEC514E00C74AB7 /* AKImgResizeOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKImgResizeOne.m; sourceTree = "<group>"; };
 		D727E1CC1EEC5ABF00C74AB7 /* AKPicBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPicBlurViewController.h; sourceTree = "<group>"; };
 		D727E1CD1EEC5ABF00C74AB7 /* AKPicBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPicBlurViewController.m; sourceTree = "<group>"; };
+		D73FDC361EF60BFB00939DB4 /* AKSearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSearchResultController.h; sourceTree = "<group>"; };
+		D73FDC371EF60BFB00939DB4 /* AKSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSearchResultController.m; sourceTree = "<group>"; };
+		D73FDC3A1EF618CC00939DB4 /* YRImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRImagePicker.h; sourceTree = "<group>"; };
+		D73FDC3B1EF618CC00939DB4 /* YRImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRImagePicker.m; sourceTree = "<group>"; };
+		D73FDC3E1EF618F300939DB4 /* AKPickImgController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPickImgController.h; sourceTree = "<group>"; };
+		D73FDC3F1EF618F300939DB4 /* AKPickImgController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPickImgController.m; sourceTree = "<group>"; };
+		D73FDC4D1EF6558E00939DB4 /* PieChart.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PieChart.xcassets; sourceTree = "<group>"; };
+		D73FDC4E1EF6558E00939DB4 /* XYCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCommon.h; sourceTree = "<group>"; };
+		D73FDC4F1EF6558E00939DB4 /* XYCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCommon.m; sourceTree = "<group>"; };
+		D73FDC501EF6558E00939DB4 /* XYPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChartView.h; sourceTree = "<group>"; };
+		D73FDC511EF6558E00939DB4 /* XYPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChartView.m; sourceTree = "<group>"; };
+		D73FDC521EF6558E00939DB4 /* XYRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRenderView.h; sourceTree = "<group>"; };
+		D73FDC531EF6558E00939DB4 /* XYRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRenderView.m; sourceTree = "<group>"; };
+		D73FDC541EF6558E00939DB4 /* XYRotatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRotatedView.h; sourceTree = "<group>"; };
+		D73FDC551EF6558E00939DB4 /* XYRotatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRotatedView.m; sourceTree = "<group>"; };
+		D73FDC5D1EF655E100939DB4 /* AKPercentAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPercentAnimationController.h; sourceTree = "<group>"; };
+		D73FDC5E1EF655E100939DB4 /* AKPercentAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPercentAnimationController.m; sourceTree = "<group>"; };
 		D74DD1521EDEA05B000A65F9 /* AKGuessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGuessCell.h; sourceTree = "<group>"; };
 		D74DD1531EDEA05B000A65F9 /* AKGuessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGuessCell.m; sourceTree = "<group>"; };
 		D74DD1551EDEA09A000A65F9 /* AKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTextView.h; sourceTree = "<group>"; };
@@ -245,6 +271,58 @@
 			name = "图像蒙版";
 			sourceTree = "<group>";
 		};
+		D73FDC321EF6098C00939DB4 /* 搜索视图 */ = {
+			isa = PBXGroup;
+			children = (
+				D73FDC361EF60BFB00939DB4 /* AKSearchResultController.h */,
+				D73FDC371EF60BFB00939DB4 /* AKSearchResultController.m */,
+			);
+			name = "搜索视图";
+			sourceTree = "<group>";
+		};
+		D73FDC391EF618BE00939DB4 /* 图片选择 */ = {
+			isa = PBXGroup;
+			children = (
+				D73FDC3A1EF618CC00939DB4 /* YRImagePicker.h */,
+				D73FDC3B1EF618CC00939DB4 /* YRImagePicker.m */,
+			);
+			name = "图片选择";
+			sourceTree = "<group>";
+		};
+		D73FDC3D1EF618D200939DB4 /* 图片选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				D73FDC3E1EF618F300939DB4 /* AKPickImgController.h */,
+				D73FDC3F1EF618F300939DB4 /* AKPickImgController.m */,
+			);
+			name = "图片选择器";
+			sourceTree = "<group>";
+		};
+		D73FDC4C1EF6556600939DB4 /* 扇形视图 */ = {
+			isa = PBXGroup;
+			children = (
+				D73FDC4D1EF6558E00939DB4 /* PieChart.xcassets */,
+				D73FDC4E1EF6558E00939DB4 /* XYCommon.h */,
+				D73FDC4F1EF6558E00939DB4 /* XYCommon.m */,
+				D73FDC501EF6558E00939DB4 /* XYPieChartView.h */,
+				D73FDC511EF6558E00939DB4 /* XYPieChartView.m */,
+				D73FDC521EF6558E00939DB4 /* XYRenderView.h */,
+				D73FDC531EF6558E00939DB4 /* XYRenderView.m */,
+				D73FDC541EF6558E00939DB4 /* XYRotatedView.h */,
+				D73FDC551EF6558E00939DB4 /* XYRotatedView.m */,
+			);
+			name = "扇形视图";
+			sourceTree = "<group>";
+		};
+		D73FDC5B1EF6559F00939DB4 /* 扇形视图 */ = {
+			isa = PBXGroup;
+			children = (
+				D73FDC5D1EF655E100939DB4 /* AKPercentAnimationController.h */,
+				D73FDC5E1EF655E100939DB4 /* AKPercentAnimationController.m */,
+			);
+			name = "扇形视图";
+			sourceTree = "<group>";
+		};
 		D74DD1511EDE9E19000A65F9 /* TextVeiw */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +348,9 @@
 				D754C3E71EED17B2008CA1F8 /* 快捷视图窗口 */,
 				D754C3F81EED3159008CA1F8 /* 常用手势 */,
 				D754C3F41EED2956008CA1F8 /* 3D标签 */,
+				D73FDC321EF6098C00939DB4 /* 搜索视图 */,
+				D73FDC3D1EF618D200939DB4 /* 图片选择器 */,
+				D73FDC5B1EF6559F00939DB4 /* 扇形视图 */,
 			);
 			name = "模块类型";
 			sourceTree = "<group>";
@@ -441,6 +522,8 @@
 		D78E11171EC6D5B7008AE673 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				D73FDC4C1EF6556600939DB4 /* 扇形视图 */,
+				D73FDC391EF618BE00939DB4 /* 图片选择 */,
 				D754C3DF1EECEC30008CA1F8 /* 视图跳动 */,
 				D78E112B1EC6D694008AE673 /* PackClass */,
 				D78E11181EC6D5BF008AE673 /* View+Text */,
@@ -595,6 +678,7 @@
 				D74DD1881EDEC534000A65F9 /* placherPic.jpg in Resources */,
 				D78E11101EC6D4AE008AE673 /* LaunchScreen.storyboard in Resources */,
 				D78E110D1EC6D4AE008AE673 /* Assets.xcassets in Resources */,
+				D73FDC561EF6558E00939DB4 /* PieChart.xcassets in Resources */,
 				D78E11081EC6D4AE008AE673 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -662,7 +746,9 @@
 				D727E1CE1EEC5ABF00C74AB7 /* AKPicBlurViewController.m in Sources */,
 				D754C3FB1EED3193008CA1F8 /* AKGestureSeris.m in Sources */,
 				D754C3E61EED1357008CA1F8 /* AKCacheClean.m in Sources */,
+				D73FDC381EF60BFB00939DB4 /* AKSearchResultController.m in Sources */,
 				D754C3D61EECDA2A008CA1F8 /* AKColorsImageView.m in Sources */,
+				D73FDC3C1EF618CC00939DB4 /* YRImagePicker.m in Sources */,
 				D754C3F71EED2981008CA1F8 /* AK3DLabelView.m in Sources */,
 				D78E112E1EC6D752008AE673 /* AKDateTrans.m in Sources */,
 				D74DD18C1EDECBAA000A65F9 /* AKLoginView.m in Sources */,
@@ -677,18 +763,24 @@
 				D74DD1571EDEA09A000A65F9 /* AKTextView.m in Sources */,
 				D754C3EA1EED17C7008CA1F8 /* AKPlusBtnController.m in Sources */,
 				D754C3DA1EECE583008CA1F8 /* AKColorFade.m in Sources */,
+				D73FDC5A1EF6558E00939DB4 /* XYRotatedView.m in Sources */,
 				D74DD18F1EDECBD3000A65F9 /* AKLoginTableView.m in Sources */,
 				D78E11021EC6D4AE008AE673 /* AppDelegate.m in Sources */,
 				D727E1C01EEC42CA00C74AB7 /* UIImage+AKImgEx.m in Sources */,
 				D754C3DE1EECE928008CA1F8 /* AKWeiblogToolBar.m in Sources */,
 				D754C3ED1EED182F008CA1F8 /* AKWeatherView.m in Sources */,
 				D78E11281EC6D65E008AE673 /* AKNewHotCell.m in Sources */,
+				D73FDC581EF6558E00939DB4 /* XYPieChartView.m in Sources */,
 				D74DD15E1EDEB0C8000A65F9 /* AKViewAndTextViewController.m in Sources */,
 				D754C3F31EED2936008CA1F8 /* XLSphereView.m in Sources */,
 				D74DD1751EDEBCF7000A65F9 /* NSObject+AKGesture.m in Sources */,
+				D73FDC5F1EF655E100939DB4 /* AKPercentAnimationController.m in Sources */,
 				D74DD1681EDEB9CC000A65F9 /* AKScoreOrderView.m in Sources */,
 				D78E112A1EC6D65E008AE673 /* AKNewHotView.m in Sources */,
+				D73FDC401EF618F300939DB4 /* AKPickImgController.m in Sources */,
 				D74DD16F1EDEBC4A000A65F9 /* AKanimationView.m in Sources */,
+				D73FDC591EF6558E00939DB4 /* XYRenderView.m in Sources */,
+				D73FDC571EF6558E00939DB4 /* XYCommon.m in Sources */,
 				D727E1C91EEC514E00C74AB7 /* AKImgResizeOne.m in Sources */,
 				D74DD1721EDEBC7D000A65F9 /* AKPhotoAndAnimationController.m in Sources */,
 				D78E10FF1EC6D4AE008AE673 /* main.m in Sources */,

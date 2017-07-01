@@ -11,7 +11,9 @@
 
 @implementation UIImage (AKImgEx)
 
-//根据所需大小对图像像素的拉伸
+/**
+ * 根据所需大小对图像像素的拉伸
+ */
 + (instancetype)resizeWithImageName:(NSString *)imgName{
     
 //    UIImage *reImg = [UIImage imageNamed:imgName];

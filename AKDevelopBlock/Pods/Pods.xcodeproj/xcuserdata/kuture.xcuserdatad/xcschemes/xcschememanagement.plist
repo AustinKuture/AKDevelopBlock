@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CBPic2ker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -41,6 +46,51 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
+<<<<<<< HEAD
 	<dict/>
+=======
+	<dict>
+		<key>188A4BEBD335B9F94B59DE6A88488FF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D113F3FCE19AC57FC71D4E6C2E2C903</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>656DBEA412C25ED7B180A8F312622820</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>965272FA02010FA40D9D30687C15B4C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA226856B467A693597C7FC67F4A73BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+>>>>>>> 71f5ea5426613d32d868b3328342bb1389171e0c
 </dict>
 </plist>

@@ -13,4 +13,9 @@ pod 'Masonry'
 pod 'SDWebImage'
 pod 'MJExtension'
 pod 'SDCycleScrollView'
+<<<<<<< HEAD
 pod 'PYSearch'
+=======
+pod 'PYSearch'
+pod 'CBPic2ker'
+>>>>>>> 71f5ea5426613d32d868b3328342bb1389171e0c

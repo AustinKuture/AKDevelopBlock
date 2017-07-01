@@ -18,6 +18,9 @@ case "${TARGETED_DEVICE_FAMILY}" in
   2)
     TARGET_DEVICE_ARGS="--target-device ipad"
     ;;
+  3)
+    TARGET_DEVICE_ARGS="--target-device tv"
+    ;;
   *)
     TARGET_DEVICE_ARGS="--target-device mac"
     ;;
@@ -74,9 +77,17 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+<<<<<<< HEAD
   install_resource "PYSearch/PYSearch/PYSearch.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+=======
+  install_resource "CBPic2ker/CBPic2ker/Resources/CBPic2kerPicker.bundle"
+  install_resource "PYSearch/PYSearch/PYSearch.bundle"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "CBPic2ker/CBPic2ker/Resources/CBPic2kerPicker.bundle"
+>>>>>>> 71f5ea5426613d32d868b3328342bb1389171e0c
   install_resource "PYSearch/PYSearch/PYSearch.bundle"
 fi
 

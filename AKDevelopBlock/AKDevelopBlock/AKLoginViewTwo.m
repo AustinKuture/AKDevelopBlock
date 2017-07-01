@@ -276,8 +276,8 @@
         }else{
             
             NSString *url = @"mailto:leilei@mail.cintcm.ac.cn?cc=kangli@mail.cintcm.ac.cn";
-//            [[UIApplication sharedApplication] openURL:[NSURL URLWithString: url] options:nil completionHandler:nil];
-            [[UIApplication sharedApplication] openURL: [NSURL URLWithString: url]];
+            
+            [[UIApplication sharedApplication]openURL:[NSURL URLWithString:url] options:[NSDictionary new] completionHandler:nil];
         }
     }
 }

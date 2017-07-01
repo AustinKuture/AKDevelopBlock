@@ -66,7 +66,7 @@
 - (void)stopAKanimationView{
     
     [_imageV stopAnimating];
-    [_imageV removeFromSuperview];
+//    [_imageV removeFromSuperview];
 }
 
 //原始加载动画

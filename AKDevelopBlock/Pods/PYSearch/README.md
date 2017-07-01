@@ -40,7 +40,11 @@
   * [Styles](#Styles)
   
 * Usage
+<<<<<<< HEAD
   * [How to use](#How to use)
+=======
+  * [How to use](#Howtouse)
+>>>>>>> 71f5ea5426613d32d868b3328342bb1389171e0c
   * [Details (See the example program PYSearchExample for details)](#Details)
   * [Custom](#Custom)
   
