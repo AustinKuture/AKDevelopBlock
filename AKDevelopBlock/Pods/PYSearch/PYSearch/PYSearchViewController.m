@@ -117,11 +117,14 @@
         self.searchHistories = self.searchHistories;
         self.currentOrientation = [[UIDevice currentDevice] orientation];
     }
+<<<<<<< HEAD
+=======
     
     self.navigationItem.titleView.py_x = PYSEARCH_MARGIN * 2;
     self.navigationItem.titleView.py_y = self.view.py_width > self.view.py_height ? 3 : 7;
     self.navigationItem.titleView.py_width = self.view.py_width - 44 - self.navigationItem.titleView.py_x * 2;
     self.navigationItem.titleView.py_height = self.view.py_width > self.view.py_height ? 24 : 30;
+>>>>>>> 71f5ea5426613d32d868b3328342bb1389171e0c
 }
 
 - (BOOL)prefersStatusBarHidden
@@ -338,10 +341,31 @@
     self.removeSpaceOnSearchString = YES;
     
     UIView *titleView = [[UIView alloc] init];
+<<<<<<< HEAD
+    titleView.py_x = PYSEARCH_MARGIN * 0.5;
+    titleView.py_y = 7;
+    titleView.py_width = self.view.py_width - 64 - titleView.py_x * 2;
+    titleView.py_height = 30;
+    UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:titleView.bounds];
+    [titleView addSubview:searchBar];
+    titleView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    self.navigationItem.titleView = titleView;
+    // close autoresizing
+    searchBar.translatesAutoresizingMaskIntoConstraints = NO;
+    NSLayoutConstraint *widthCons = [NSLayoutConstraint constraintWithItem:searchBar attribute:NSLayoutAttributeWidth  relatedBy:NSLayoutRelationEqual toItem:titleView attribute:NSLayoutAttributeWidth multiplier:1.0 constant:0];
+    NSLayoutConstraint *heightCons = [NSLayoutConstraint constraintWithItem:searchBar attribute:NSLayoutAttributeHeight  relatedBy:NSLayoutRelationEqual toItem:titleView attribute:NSLayoutAttributeHeight multiplier:1.0 constant:0];
+    NSLayoutConstraint *xCons = [NSLayoutConstraint constraintWithItem:searchBar attribute:NSLayoutAttributeTop  relatedBy:NSLayoutRelationEqual toItem:titleView attribute:NSLayoutAttributeTop multiplier:1.0 constant:0];
+    NSLayoutConstraint *yCons = [NSLayoutConstraint constraintWithItem:searchBar attribute:NSLayoutAttributeLeft  relatedBy:NSLayoutRelationEqual toItem:titleView attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0];
+    [titleView addConstraint:widthCons];
+    [titleView addConstraint:heightCons];
+    [titleView addConstraint:xCons];
+    [titleView addConstraint:yCons];
+=======
     UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:titleView.bounds];
     [titleView addSubview:searchBar];
     self.navigationItem.titleView = titleView;
     searchBar.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+>>>>>>> 71f5ea5426613d32d868b3328342bb1389171e0c
     searchBar.placeholder = [NSBundle py_localizedStringForKey:PYSearchSearchPlaceholderText];
     searchBar.backgroundImage = [NSBundle py_imageNamed:@"clearImage"];
     searchBar.delegate = self;
