@@ -11,6 +11,7 @@
 #import "AKSearchResultController.h"
 #import "PYSearch.h"
 #import "CBPic2ker.h"
+#import <CBPic2ker/CBPhotoSelecterAssetModel.h>
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,PYSearchViewControllerDelegate,CBPickerControllerDelegate>
 
@@ -177,9 +178,61 @@
 #pragma makr ***图片选择控制器二代理***
 - (void)photoSelecterController:(CBPhotoSelecterController *)pickerController sourceAsset:(NSArray *)sourceAsset{
     
+    NSMutableArray *dataArray = [NSMutableArray array];
     MyLog(@"==========PickSelectedTwo:%@",[sourceAsset firstObject]);
+    
+    for (CBPhotoSelecterAssetModel *model in sourceAsset) {
+        
+        if (model.mediaType == CBPhotoSelecterAssetModelMediaTypeLivePhoto || model.mediaType ==CBPhotoSelecterAssetModelMediaTypePhoto ||model.mediaType ==CBPhotoSelecterAssetModelMediaTypeGif) {
+            
+            NSLog(@"");
+            
+            PHImageRequestOptions*options = [[PHImageRequestOptions alloc]init];
+            
+            options.deliveryMode=PHImageRequestOptionsDeliveryModeFastFormat;
+            
+            PHAsset *asset = (PHAsset *)model;
+            
+            [[PHImageManager defaultManager] requestImageDataForAsset:asset options:options resultHandler:^(NSData * _Nullable imageData, NSString * _Nullable dataUTI, UIImageOrientation orientation, NSDictionary * _Nullable info) {
+                
+//                NSLog(@"===One===使用AFN上传%@",imageData);
+                
+//                AKNetPackegeAFN
+                [dataArray addObject:imageData];
+                
+//                NSLog(@"==========dataArray:%@",dataArray);
+            }];
+            
+//             NSLog(@"===One===使用AFN上传%@",dataArray);
+            
+        }else if (model.mediaType == CBPhotoSelecterAssetModelMediaTypeLivePhoto){
+            
+            
+            PHAsset *asset = (PHAsset *)model;
+            
+            [[PHImageManager  defaultManager] requestAVAssetForVideo:asset  options:[[PHVideoRequestOptions alloc]init] resultHandler:^(AVAsset * _Nullable asset, AVAudioMix * _Nullable audioMix, NSDictionary * _Nullable info) {
+                
+                NSURL *fileUrl = [asset valueForKey:@"URL"];
+                
+                NSData *videoData = [NSData dataWithContentsOfURL:fileUrl];
+                
+                NSLog(@"===Two===使用AFN上传%@",videoData);
+                
+            }];
+            
+            
+        }
+        
+    }
+    
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+         NSLog(@"===One===使用AFN上传%@",dataArray);
+    });
+   
+    
 }
-
 - (void)photoSelecterDidCancelWithController:(CBPhotoSelecterController *)pickerController{
     
     MyLog(@"==========PhotoController:%@",pickerController);
