@@ -46,9 +46,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-<<<<<<< HEAD
-	<dict/>
-=======
 	<dict>
 		<key>188A4BEBD335B9F94B59DE6A88488FF3</key>
 		<dict>
@@ -91,6 +88,5 @@
 			<true/>
 		</dict>
 	</dict>
->>>>>>> 71f5ea5426613d32d868b3328342bb1389171e0c
 </dict>
 </plist>

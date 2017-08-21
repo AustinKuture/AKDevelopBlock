@@ -17,12 +17,8 @@ PODS:
   - CBPic2ker (1.0.1)
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
-<<<<<<< HEAD
-  - PYSearch (0.8.0)
-=======
-  - PYSearch (0.8.1)
->>>>>>> 71f5ea5426613d32d868b3328342bb1389171e0c
-  - SDCycleScrollView (1.66):
+  - PYSearch (0.8.2)
+  - SDCycleScrollView (1.73):
     - SDWebImage (~> 4.0.0)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
@@ -42,18 +38,10 @@ SPEC CHECKSUMS:
   CBPic2ker: 8a8522cca6f16259a46ebcec493fed3db59b05df
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-<<<<<<< HEAD
-  PYSearch: 53c239376b392fe0658c2bd002f408e7caf63046
-  SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
-
-PODFILE CHECKSUM: bea593c32ce9b86dd19f82ec13e182867e678734
-=======
-  PYSearch: 5fe02d93a6860f81b91fd1db4757b598fbe325d8
-  SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
+  PYSearch: 6abe3721eb6a2f2a77f06a095b734cdb8faf3c81
+  SDCycleScrollView: d0fd5fe40a80918371fd8939214eb3be81033d83
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
 PODFILE CHECKSUM: 0ca0bda8b75c1afb4a63bbb14b1a9471e1eb776a
->>>>>>> 71f5ea5426613d32d868b3328342bb1389171e0c
 
 COCOAPODS: 1.2.0
